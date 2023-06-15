@@ -339,8 +339,12 @@ footer img{
     }
     .slider-section{
         background-size: contain;
-        height:30vh;
+        height:60vh;
     }
+    .slider-section .layer{
+        height: 55%;
+    }
+    
 }
 .banner h1{
     font-size: 3rem;
