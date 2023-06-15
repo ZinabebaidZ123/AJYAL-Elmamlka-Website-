@@ -257,6 +257,7 @@ ul{
   
     /* margin-top: 8rem; */
 }
+
 .carousel-item h1{
     text-align: center !important;
     color : #fff !important ;
@@ -276,7 +277,7 @@ ul{
     background-image: url("../images/contact-us.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 110vh;
     background-position: center;
 }
 .slider-section{
@@ -289,6 +290,14 @@ ul{
     z-index: 888888;
     object-fit: content;
     /* background-attachment: fixed; */
+}
+@media(max-width:768px){
+    .banner{
+        height: 135vh;
+    }
+    .slider-section{
+        height: 90vh;
+    }
 }
 .contact-btn a{
     background-color: var(--main-color);
@@ -303,7 +312,7 @@ footer img{
 }
 @media(max-width:992px){
     footer  img{
-        width: 70% !important;
+        width: 80% !important;
     }
 }
 .slider-section .layer{
@@ -361,12 +370,19 @@ footer img{
   
   }
 
-  @media (max-width:567px){
+  @media (max-width:768px){
     .banner #carouselExampleControls{
         width: 100% !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
-        height: 60vh;
+        height: 78vh;
+      
+      }
+  }
+  @media (max-width:768px){
+    .banner #carouselExampleControls{
+      
+        margin-top: 2rem !important;
       
       }
   }
@@ -833,7 +849,7 @@ height:50vh;
     transition: 1s all;
 }
 .contact .contact-way:hover{
-    background-color: #9b764d;
+    background-color: #996529;
     cursor: pointer;
 }
 .contact .contact-way  i{
@@ -856,7 +872,7 @@ height:50vh;
 }
 @media(max-width:992px){
     .contact .contact-way{
-        width: 35%;
+        width: 9rem;
         padding: 0.2rem 1.5rem;
     }
     .contact .contact-way  i{
